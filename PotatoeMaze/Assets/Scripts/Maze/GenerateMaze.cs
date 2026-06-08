@@ -46,7 +46,7 @@ public class GenerateMaze : MonoBehaviour
     {
         int level = PlayerPrefs.GetInt("level", 1);
         
-        int mazeSize = 20 + level * 1.8f;
+        
         yield return null;
     }
     private (List<MazeWall> walls, MazeCell[,] map) DiagramMaze((int mazeSize, int opensAmount, float doorChance) data)

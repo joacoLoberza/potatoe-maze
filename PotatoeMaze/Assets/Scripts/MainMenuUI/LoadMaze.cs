@@ -48,10 +48,3 @@ public class LoadMaze : MonoBehaviour
         SceneManager.UnloadSceneAsync("Menu Scene");
     }
 }
-
-/*
-Tengo que:
--Cragar escena asíncrona.
--Modificar el valor del slider.
--Ajustar el valor repartiendolo en  los 4 checkpoints.
-*/
